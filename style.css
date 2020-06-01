@@ -31,7 +31,7 @@ html {
 a, p {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-    font-family: Arial;
+    font-family: Arial sans-serif;
     font-size: 13px;
 }
 a:hover {
@@ -87,6 +87,7 @@ a:hover {
     padding-left: 40px;
     padding-right: 40px;
     background: url("./components/search.png")no-repeat 10px;
+    outline:none;
 }
 #search:focus {
     box-shadow: 1px 1px 5px gray;
